@@ -1,0 +1,66 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.center-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/*flex-direction is use for row and column.*/
+.gap {
+  gap: 100px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+/*gap is space.*/
+.center a {
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: small;
+  color: brown;
+}
+/*text-decoration is make don't have underline.*/
+.center a:hover {
+  color: black;
+}
+/*hover is the back color of pointer.*/
+.profile {
+  width: 15%;
+  border-radius: 50%;
+}
+/*border-radius is circle*/
+.heading {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #2c3e50;
+}
+.paragraph {
+  width: 70%;
+  text-align: justify;
+  text-indent: 30px;
+  line-height: 1.5;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+}
+/*text-indent is first start line of paragrahp.*/
+
+/*line-height is paragraph spacing.*/
+
+/*text-align is equl to side of paragrahp.*/
+.img {
+  width: 20%;
+}
+.gallery {
+  gap: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.underline {
+  text-decoration: underline;
+}
+/*text-decoration is make underline.*/
